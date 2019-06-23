@@ -1,0 +1,101 @@
+body, button, input, select, textarea {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  color: #FF3D7F;
+}
+
+.container.center {
+  text-align: center;
+}
+
+.main.input {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1.5rem;
+}
+
+.main.input:focus {
+  border-color: #FF3D7F;
+}
+
+.input[readonly] {
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+  box-shadow: none;
+  color: #7a7a7a;
+  cursor: default;
+}
+
+.button.is-pink {
+  border: none;
+  border-radius: 0;
+  box-shadow: none !important;
+  background-color: #FF3D7F;
+  color: #fff;
+}
+
+.button.is-pink:hover {
+  background-color: #ed2d6e;
+}
+
+.button svg {
+  width: 18px;
+  height: 18px;
+}
+
+.main.button {
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+.main.field {
+  padding: 0 2rem;
+}
+
+.main.title, .main.subtitle {
+  color: #fff;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.main.title:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.main.icon {
+  height: 100% !important;
+  width: 3.5em !important;
+}
+
+.main.hero{
+  background: #FF9E9D url(../assets/background.jpg) repeat 0 0;
+  -webkit-animation: slide 30s linear infinite;
+  color: #fff;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -600px -600px; }
+}
+
+.main.subtitle {
+  float: right;
+  padding-right: 2rem;
+}
+
+#slug:focus {
+  outline: 0;
+}
+
+#slug:empty:before {
+  content: attr(placeholder);
+  opacity: 0.5;
+}
+
+#slug:hover {
+  cursor: text;
+}
