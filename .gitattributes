@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Prevent HTML-only PHP files to be indentified as Hack:
+*.php linguist-language=PHP

@@ -5,10 +5,7 @@
 Esse é um projeto de um encurtador de URL simples e privativo que estará disponível em [imlucas.me](https://imlucas.me) em breve.
 
 # Já estão nos meu planos:
-- Adicionar mais mensagens (erro, URL/slug já existe, etc.)
-- Autenticação (login e senha)
-- Solicitar token do usuário para encurtar URLs
-- Máximo de links por hora por token
+- API REST para encurtar URLs
 - Desenvolver painel de estatísticas
 - Adicionar arquivos de configuração
 - Terminar a página inicial

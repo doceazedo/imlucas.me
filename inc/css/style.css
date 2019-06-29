@@ -10,14 +10,17 @@ a {
   text-align: center;
 }
 
-.main.input {
+.input {
   border-radius: 0;
-  box-shadow: none;
-  font-size: 1.5rem;
+  box-shadow: none !important;
 }
 
-.main.input:focus {
+.input:focus {
   border-color: #FF3D7F;
+}
+
+.main.input {
+  font-size: 1.5rem;
 }
 
 .input[readonly] {
@@ -98,4 +101,44 @@ a {
 
 #slug:hover {
   cursor: text;
+}
+
+.modal-card-body {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+#login-card {
+  width: 30rem;
+  margin: auto;
+}
+
+.login.control {
+  text-align: center;
+}
+
+.login.control .button {
+  width: 100%;
+}
+
+.error {
+  animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@-webkit-keyframes shake {
+  10%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(8px, 0, 0);
+  }
 }
